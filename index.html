@@ -7,5 +7,7 @@ title: Uni - A simple, one page Jekyll theme
   {% endif %}
 
   {% if site.content %}
-  <p class="pageContent">{{ site.content }}</p>
+  {% for item in site.content %}
+  <p class="pageContent">{{ item }}</p>
+  {% endfor %}
   {% endif %}
