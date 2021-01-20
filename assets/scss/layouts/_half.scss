@@ -23,7 +23,6 @@
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
-        text-align: justify;
         padding: $padding;
       }
     }
@@ -52,4 +51,8 @@
     background-position: center;
     @include responsivebackground("half-sm.jpg", "half-md.jpg", "half-lg.jpg");
   }
+}
+
+.pageContent {
+    text-align: justify;
 }
